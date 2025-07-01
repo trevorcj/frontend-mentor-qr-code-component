@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Variables */
+:root {
+  --white: #ffffff;
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+  --blue: hsl(228, 45%, 44%);
+}
+
+/* Body Styles */
+body {
+  background-color: var(--slate-300);
+}
+
+/* Card Styles */
+.card {
+  max-width: 320px;
+  padding: 16px 16px 40px;
+  border-radius: 20px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Styles */
+img {
+  width: 288px;
+  border-radius: 10px;
+}
+
+/* Text Container */
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 22px;
+  color: var(--slate-900);
+  line-height: 1.2;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  color: var(--slate-500);
+}
+
+/* Attribution Styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--blue);
+}
