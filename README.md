@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://github.com/trevorcj/frontend-mentor-qr-code-component)
-- Live Site URL: [Add live site URL here](#)
+- Live Site URL: [Visit live site](https://trevorcj-qrcode-component.netlify.app/)
 
 ## My process
 
